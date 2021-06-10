@@ -29,6 +29,7 @@ const run = async () => {
 		core.info(`Owner		: ${ item.repo.user }`)
 		core.info(`Https Url	: https://${ item.repo.fullName }`)
 		core.info(`Branch		: ${ item.repo.branch }`)
+		core.info(`Branch		: ${ item.repo.branch }`)
 		core.info('	')
 		try {
 
